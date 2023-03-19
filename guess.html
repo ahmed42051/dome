@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess my number</title>
+    <link rel="icon" type="image/x-icon" href="./guess_worry_concern_guessing_doubt-1024.webp">
+    <link rel="stylesheet" href="guess.css">
+</head>
+<body>
+    <h1>Guess A Number</h1>
+    <div id="wrapper">
+        <p>Guess a random number between 1 to 10</p>
+        <p>5 attempts to guess the right number</p>
+
+        
+        <div class="form">
+            <input type="number" id="guessField" class="guessField" max="10" min="0" > <br>
+            <input type="submit" id="sub" value="Submit" class="guessSubmit">
+        </div>
+        <div class="resultParas">
+            <p class="guesses"></p>
+            <p class="lastResult"></p>
+            <p class="lowOrHigh"></p>
+        </div>
+    </div>
+
+
+
+    <script src="guess.js"></script>
+</body>
+</html>
